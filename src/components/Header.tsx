@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className={container}>
       <figure style={{ margin: 0 }}>
-        <img className={image} src="/profilbild.webp" alt="" />
+        <img className={image} src="profilbild.webp" alt="profile image" />
       </figure>
       <section>
         <h1 className={title}>Richard Mattsson</h1>

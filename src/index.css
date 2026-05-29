@@ -1,0 +1,111 @@
+:root {
+  --text: #29252e;
+  --text-h: #08060d;
+  --bg: #ffffffa1;
+  --bg-paper: #ffffffe5;
+  --border: #8f8a99;
+  --code-bg: #f4f3ec;
+  --accent: #094da5;
+  --accent-bg: rgba(57, 89, 182, 0.938);
+  --accent-border: rgba(37, 93, 197, 0.829);
+  --social-bg: rgba(244, 243, 236, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 14px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #b4b9c2;
+    --text-h: #f3f4f6e7;
+    --bg: #16171d;
+    --bg-paper: #25262e;
+    --border: #1f2027;
+    --code-bg: #1f2028;
+    --accent: #7eade2;
+    --accent-bg: rgba(56, 75, 138, 0.836);
+    --accent-border: rgba(108, 164, 236, 0.884);
+    --social-bg: rgba(47, 48, 58, 0.5);
+    --shadow:
+      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+  }
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 500;
+  margin: 2px 0;
+  color: var(--text-h);
+}
+
+h2 {
+  font-weight: 600;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--accent);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 0;
+}
+
+@media print {
+  #root {
+    margin: 0;
+    padding: 0;
+  }
+
+  .cv-container {
+    width: 100%;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  button {
+    display: none;
+  }
+
+  @page {
+    margin: 0 1in;
+  }
+}

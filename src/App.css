@@ -1,0 +1,18 @@
+.cv-container {
+  width: 794px;
+  height: 1123px;
+  background-color: var(--bg-paper);
+  border-radius: 5px;
+  padding: 2rem;
+  box-shadow: 5px 5px 5px 5px #00000056;
+}
+
+.content-container {
+  display: grid;
+  grid-template-columns: 30% auto;
+  margin: 15px 0 0 0;
+}
+
+.divider {
+  color: var(--accent-border);
+}

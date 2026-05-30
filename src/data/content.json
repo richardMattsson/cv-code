@@ -2,25 +2,25 @@
   "projects": {
     "blackjack": {
       "title": "Blackjack",
-      "link": "https://richardmattsson.github.io/blackjack2/",
+      "link": "https://github.com/richardMattsson/blackjack2",
       "img": "blackjack.webp",
       "alt": "blackjack icon"
     },
     "timeline": {
       "title": "Timeline",
-      "link": "https://case-timeline.richard-portfolio.com/",
+      "link": "https://github.com/richardMattsson/Case-Timeline",
       "img": "timeline.webp",
       "alt": "timeline icon"
     },
     "breadshop": {
       "title": "Breadshop",
-      "link": "https://breadshop.richard-portfolio.com/",
+      "link": "https://github.com/richardMattsson/lab_typescript_cypress",
       "img": "breadshop.webp",
       "alt": "breadshop icon"
     },
     "police": {
       "title": "Polis",
-      "link": "https://richardmattsson.github.io/police-events/#/",
+      "link": "https://github.com/richardMattsson/Code-for-police-events",
       "img": "polisen.webp",
       "alt": "police icon"
     }

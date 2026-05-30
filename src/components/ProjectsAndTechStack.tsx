@@ -1,6 +1,7 @@
 import content from "../data/content.json";
 import styles from "../css/project-and-techstack.module.css";
 import {
+  SiCypress,
   SiD3,
   SiDocker,
   SiElectron,
@@ -13,21 +14,24 @@ import {
   SiRedux,
   SiTypescript,
   SiVisx,
+  SiVuedotjs,
 } from "react-icons/si";
 
 const techStack = [
-  { Typescript: <SiTypescript color="#0000FF" className={styles.icon} /> },
+  { TypeScript: <SiTypescript color="#007acc" className={styles.icon} /> },
   { React: <SiReact color="#179ce9" className={styles.icon} /> },
+  { Vue: <SiVuedotjs color="#478a4a" className={styles.icon} /> },
   { Express: <SiExpress color="#020303" className={styles.icon} /> },
   { PostgreSQL: <SiPostgresql color="#179ce9" className={styles.icon} /> },
   { MongoDb: <SiMongodb color="#247a0f" className={styles.icon} /> },
   { Git: <SiGit color="#df7615" className={styles.icon} /> },
   { "Redux Toolkit": <SiRedux color="#7619ce" className={styles.icon} /> },
   { "Material UI": <SiMui color="#2558c5" className={styles.icon} /> },
+  { Cypress: <SiCypress color="#427945" className={styles.icon} /> },
   { D3: <SiD3 color="#df7615" className={styles.icon} /> },
   { Visx: <SiVisx color="#f03629" className={styles.icon} /> },
-  { Electron: <SiElectron color="#325e86" className={styles.icon} /> },
   { Docker: <SiDocker color="#4c61dd" className={styles.icon} /> },
+  { Electron: <SiElectron color="#325e86" className={styles.icon} /> },
 ];
 
 function ProjectsAndTechStack() {
@@ -35,11 +39,10 @@ function ProjectsAndTechStack() {
     <aside>
       <Projects />
       <TechStack />
-      <section className={styles.printBtnSection}>
-        <button onClick={() => window.print()} className={styles.printBtn}>
-          Skriv ut / PDF
-        </button>
-      </section>
+
+      <button onClick={() => window.print()} className={styles.printBtn}>
+        Skriv ut / PDF
+      </button>
     </aside>
   );
 }

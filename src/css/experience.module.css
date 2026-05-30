@@ -48,3 +48,9 @@ article {
     gap: 5px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  article {
+    border-left: 2px solid var(--border);
+  }
+}

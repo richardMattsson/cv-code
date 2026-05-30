@@ -32,3 +32,19 @@ article {
   width: 30px;
   border-radius: 50%;
 }
+
+@media (max-width: 600px) {
+  article {
+    border: none;
+    padding: 15px 0 0 20px;
+  }
+  .expInfo {
+    padding-left: 0;
+  }
+  .titleContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+  }
+}

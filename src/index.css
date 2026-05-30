@@ -1,7 +1,7 @@
 :root {
   --text: #29252e;
   --text-h: #08060d;
-  --bg: #ffffffa1;
+  --bg: #a8a3a3bd;
   --bg-paper: #ffffffe5;
   --border: #8f8a99;
   --code-bg: #f4f3ec;
@@ -46,14 +46,9 @@
 
 #root {
   max-width: 100%;
-  margin: 0 auto;
   min-height: 100svh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 2rem;
-  box-sizing: border-box;
 }
 
 body {
@@ -96,9 +91,8 @@ ul {
   }
 
   .cv-container {
-    width: 100%;
     padding: 0;
-    max-width: 100%;
+    margin: 0;
   }
 
   button {
@@ -106,6 +100,6 @@ ul {
   }
 
   @page {
-    margin: 0 1in;
+    margin: 0;
   }
 }

@@ -45,7 +45,7 @@ function ProjectsAndTechStack() {
 }
 function Projects() {
   return (
-    <section className={styles.container}>
+    <section className={styles.projectContainer}>
       <h2>Hobbyprojekt</h2>
       <p className={styles.subtitle}>
         Nyfiken på min kod? Här är några projekt jag har byggt.
@@ -66,7 +66,7 @@ function Projects() {
 
 function TechStack() {
   return (
-    <section>
+    <section className={styles.techContainer}>
       <h2>Min stack</h2>
       <ul className={styles.projectList}>
         {techStack.map((item) => (

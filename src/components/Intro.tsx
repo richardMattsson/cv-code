@@ -4,7 +4,7 @@ function Intro() {
   return (
     <section className={styles.container}>
       <p>
-        Junior utvecklare med <strong>grund i JavaScript</strong>, bygg på
+        Junior utvecklare med <strong>grund i JavaScript</strong>, byggd på
         hobbyprojekt, formell utbildning och nio månaders{" "}
         <strong>lärande i arbete</strong>.
       </p>

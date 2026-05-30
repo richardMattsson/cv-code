@@ -2,7 +2,12 @@ aside {
   padding: 5px 0 0 0;
 }
 
-.container {
+.projectContainer {
+  margin: 0 0 15px 0;
+  padding: 0 10px 0 0;
+}
+
+.techContainer {
   margin: 0 0 15px 0;
   padding: 0 10px 0 0;
 }
@@ -49,4 +54,31 @@ aside {
   border-radius: 5px;
   border: none;
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .projectContainer {
+    grid-area: projectContainer;
+  }
+
+  .techContainer {
+    grid-area: techContainer;
+    border-left: 1px solid var(--accent-bg);
+    padding-left: 5px;
+  }
+  .printBtn {
+    grid-area: printBtn;
+  }
+  aside {
+    display: grid;
+    grid-template-areas:
+      "projectContainer techContainer"
+      "printBtn techContainer";
+  }
+  .printBtnSection {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    height: 80px;
+  }
 }

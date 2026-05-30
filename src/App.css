@@ -1,9 +1,8 @@
 .cv-container {
-  width: 794px;
-  height: 1123px;
+  max-width: 794px;
   background-color: var(--bg-paper);
   border-radius: 5px;
-  padding: 2rem;
+  padding: 3rem;
   box-shadow: 5px 5px 5px 5px #00000056;
 }
 
@@ -15,4 +14,11 @@
 
 .divider {
   color: var(--accent-border);
+}
+
+@media (max-width: 600px) {
+  .content-container {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+  }
 }

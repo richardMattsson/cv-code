@@ -15,11 +15,22 @@
 }
 
 .image {
-  width: 125px;
+  max-width: 125px;
   border-radius: 50%;
 }
 
 .contact {
   text-align: end;
   list-style-type: none;
+}
+
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+  }
+  .contact {
+    text-align: start;
+    list-style-type: none;
+  }
 }

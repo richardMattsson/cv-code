@@ -3,7 +3,7 @@ import styles from "../css/experience.module.css";
 
 function Experience() {
   return (
-    <article>
+    <article className={styles.articleContainer}>
       {Object.values(content.experience).map((exp) => (
         <section className={styles.expContainer}>
           <span className={styles.titleContainer}>

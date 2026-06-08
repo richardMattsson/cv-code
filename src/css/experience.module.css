@@ -1,16 +1,15 @@
 .titleContainer {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 5px;
 }
 
+.articleContainer {
+  border-left: none;
+}
 .subtitle {
   font-style: italic;
-}
-
-article {
-  border-left: 2px solid var(--border);
-  padding: 5px 0 0 20px;
 }
 
 .expContainer {
@@ -33,24 +32,14 @@ article {
   border-radius: 50%;
 }
 
-@media (max-width: 600px) {
-  article {
-    border: none;
-    padding: 15px 0 0 20px;
-  }
-  .expInfo {
-    padding-left: 0;
+@media (min-width: 600px) {
+  .articleContainer {
+    border-left: 2px solid var(--border);
+    padding: 5px 0 0 20px;
   }
   .titleContainer {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     gap: 5px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  article {
-    border-left: 2px solid var(--border);
   }
 }

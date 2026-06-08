@@ -49,6 +49,7 @@ aside {
 }
 .printBtn {
   width: 125px;
+  height: 40px;
   padding: 5px 10px;
   background-color: var(--bg-paper);
   border-radius: 5px;

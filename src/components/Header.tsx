@@ -19,7 +19,7 @@ function Header() {
         </li>
         <li>
           <a href="mailto:mattsson.richard@gmail.com">
-            mattsson.richard@gmail.com
+            info@richardmattsson.se
           </a>
         </li>
       </ul>

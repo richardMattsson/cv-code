@@ -19,7 +19,7 @@
       "alt": "breadshop icon"
     },
     "police": {
-      "title": "Polis",
+      "title": "Police report API",
       "link": "https://github.com/richardMattsson/Code-for-police-events",
       "img": "polisen.webp",
       "alt": "police icon"
@@ -38,7 +38,7 @@
         "Van vid dagliga standups och agilt arbetssätt - löste problem både i team och självständigt.",
         "Regelbunden dialog med UX-designer stärkte min förmåga att prata om frontend-kod på ett tillgängligt sätt.",
         "Genomförde ett självständigt fullstack-projekt, med eget ansvar för hela stacken från backend till frontend.",
-        "Implementerade D3 och Visx för att visualisera en interaktiv tidslinje - presenterad för både skola och företag."
+        "Implementerade D3 och Visx för att visualisera en interaktiv tidslinje - presenterad för utbildning och företag."
       ]
     },
     "education": {
@@ -50,7 +50,7 @@
       "alt": "it-university icon",
       "list-items": [
         "Tack vare kurser i UX/UI har jag praktisk insikt i hur viktigt det är att förstå användarens perspektiv.",
-        "Under kursen i JavaScript genomförde vi ett skriftligt prov där jag fick alla rätt.",
+        "Under kursen i JavaScript genomförde vi ett skriftligt prov där jag var ensam om att få alla rätt.",
         "Konfigurerade en egen server med Docker som jag hostar min webbplats på.",
         "I samtliga kurser - frontend, UX, testning, backend och databaser - har jag uppnått betyget väl godkänd."
       ]

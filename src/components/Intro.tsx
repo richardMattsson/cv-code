@@ -4,9 +4,8 @@ function Intro() {
   return (
     <section className={styles.container}>
       <p>
-        Junior utvecklare med <strong>grund i JavaScript</strong>, byggd på
-        hobbyprojekt, formell utbildning och nio månaders{" "}
-        <strong>lärande i arbete</strong>.
+        Fullstack-utvecklare med <strong>grund i JavaScript</strong>, byggd på
+        hobbyprojekt, formell utbildning och <strong>lärande i arbete</strong>.
       </p>
       <p className={styles.indent}>
         Jag <strong>välkomnar</strong> kodgranskning och feedback - det är så

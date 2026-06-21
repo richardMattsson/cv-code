@@ -84,6 +84,14 @@ ul {
   margin: 0;
 }
 
+.cv-container {
+  max-width: 794px;
+  background-color: var(--bg-paper);
+  border-radius: 5px;
+  padding: 3rem;
+  box-shadow: 5px 5px 5px 5px #00000056;
+}
+
 @media print {
   #root {
     margin: 0;
@@ -91,8 +99,8 @@ ul {
   }
 
   .cv-container {
+    box-shadow: none;
     padding: 0;
-    margin: 0;
   }
 
   button {
@@ -100,6 +108,9 @@ ul {
   }
 
   @page {
-    margin: 0;
+    margin: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    size: A4;
   }
 }

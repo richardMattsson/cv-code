@@ -1,4 +1,5 @@
 import "./App.css";
+import "./index.css";
 import Experience from "./components/Experience";
 import Header from "./components/Header";
 import Intro from "./components/Intro";

@@ -27,22 +27,22 @@
   },
   "experience": {
     "internship": {
-      "title": "Praktik",
-      "subtitle": "2025-2026",
+      "title": "Systemutvecklare",
+      "subtitle": "2025-2026 (praktik)",
       "location": "Paliscope AB",
       "link": "https://www.paliscope.com/",
       "img": "paliscope.webp",
       "alt": "paliscope icon",
       "list-items": [
-        "Moderniserade äldre kodbaser genom att integrera ny teknik.",
-        "Van vid dagliga standups och agilt arbetssätt - löste problem både i team och självständigt.",
+        "Moderniserade äldre kodbaser med uppdaterad kod inom React, från klasser till funktioner och Material UI.",
+        "Dagliga standups och agilt arbetssätt - löste problem både i team och självständigt.",
         "Regelbunden dialog med UX-designer stärkte min förmåga att prata om frontend-kod på ett tillgängligt sätt.",
-        "Genomförde ett självständigt fullstack-projekt, med eget ansvar för hela stacken från backend till frontend.",
-        "Implementerade D3 och Visx för att visualisera en interaktiv tidslinje - presenterad för utbildning och företag."
+        "Ansvarade för stories och features i Azure DevOps miljö genom hela stacken från backend till frontend.",
+        "Implementerade nya verktyg (D3.js och Visx) för att visualisera en interaktiv tidslinje - presenterad för utbildning och företag."
       ]
     },
     "education": {
-      "title": "Fullstack utbildning",
+      "title": "Fullstack-utvecklare JavaScript",
       "subtitle": "2024-2026",
       "location": "IT-högskolan",
       "link": "https://www.iths.se/utbildningar/fullstack-utvecklare-javascript/",
@@ -50,21 +50,75 @@
       "alt": "it-university icon",
       "list-items": [
         "Tack vare kurser i UX/UI har jag praktisk insikt i hur viktigt det är att förstå användarens perspektiv.",
-        "Under kursen i JavaScript genomförde vi ett skriftligt prov där jag var ensam om att få alla rätt.",
+        "Under kursen i Native JavaScript genomförde vi ett skriftligt prov där jag fick alla rätt vilket visar mitt intresse för att lära mig kodstruktur på djupet.",
         "Konfigurerade en egen server med Docker som jag hostar min webbplats på.",
-        "I samtliga kurser - frontend, UX, testning, backend och databaser - har jag uppnått betyget väl godkänd."
+        "I samtliga kurser - frontend, UX, testning, backend och databaser - har jag uppnått högsta betyg."
       ]
     },
-    "journey": {
+    "voluntary": {
+      "title": "Webbmäster",
+      "subtitle": "2023-nu",
+      "location": "Visans vänner",
+      "link": "https://www.visansvanner.com/",
+      "img": "visans-vanner-icon.webp",
+      "alt": "visans vänner icon",
+      "list-items": [
+        "Webbmäster och ansvarig för hemsida byggd i Wordpress.",
+        "Medlem i ljudgruppen och arrangerar liveljud."
+      ]
+    },
+    "highschool-2": {
+      "title": "Folkhögskola",
+      "subtitle": "2023-2024",
+      "location": "Nordiska Folkhögskolan",
+      "link": "https://nordiska.fhsk.se/sang-scen/kurser/nordiska-visskolan/",
+      "img": "nordiska-icon.webp",
+      "alt": "gothenburg school icon",
+      "list-items": ["Kurser i musikskapande och produktion"]
+    },
+    "highschool": {
       "title": "Folkhögskola",
       "subtitle": "2022-2023",
       "location": "Göteborgs Folkhögskola",
       "link": "https://gbg.fhsk.se/kurser/natur/",
       "img": "gbg-highschool.webp",
       "alt": "gothenburg school icon",
+      "list-items": ["Kurser i matematik, fysik och kemi.", "Kurser i musik"]
+    },
+    "work-2": {
+      "title": "Undersköterska",
+      "subtitle": "2020-2022",
+      "location": "Göteborgs Stad",
+      "link": "https://goteborg.se/wps/portal/start/kommun-och-politik/kommunens-organisation/forvaltningar-och-namnder/aldre-samt-vard--och-omsorgsforvaltningen",
+      "img": "gothenburg-city-icon.webp",
+      "alt": "gothenburg city icon",
+      "list-items": ["Äldreomsorg inom hemtjänsten."]
+    },
+    "work": {
+      "title": "Verksamhetsutvecklare",
+      "subtitle": "2018-2019",
+      "location": "Göteborgs Stad",
+      "link": "https://goteborg.se/wps/portal/start/kommun-och-politik/kommunens-organisation/forvaltningar-och-namnder/aldre-samt-vard--och-omsorgsforvaltningen",
+      "img": "gothenburg-city-icon.webp",
+      "alt": "gothenburg city icon",
       "list-items": [
-        "Kurser i matematik, fysik och kemi lade grunden för mitt intresse för teknik och problemlösning.",
-        "Genom musikprojekt utvecklade jag förmågan att uppträda inför publik och driva projekt från idé till färdig produktion."
+        "Uppdrag inom socialtjänsten i Göteborg Stad.",
+        "Fokus på att effektivisera och organisera delar av förvaltningen.",
+        "Förändringsarbete"
+      ]
+    },
+    "journey": {
+      "title": "Offentlig förvaltning",
+      "subtitle": "2013-2018",
+      "location": "Göteborgs Universitet",
+      "link": "https://www.gu.se/studera/hitta-utbildning/masterprogrammet-i-offentlig-forvaltning-organisering-management-och-samhalle-s2off-omsa",
+      "img": "gothenburg-university-icon.webp",
+      "alt": "gothenburg school icon",
+      "list-items": [
+        "Master- och kandidatexamen i offentlig förvaltning, ledning och styrning.",
+        "Hur politik omvandlas till offentlig förvaltning",
+        "Praktik",
+        "Uppsatsskrivande"
       ]
     }
   }

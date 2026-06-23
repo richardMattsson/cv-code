@@ -28,31 +28,30 @@
   "experience": {
     "internship": {
       "title": "Systemutvecklare",
-      "subtitle": "2025-2026 (praktik)",
+      "subtitle": "okt 2025 - nov 2025 & jan 2026 - maj 2026 (praktik)",
       "location": "Paliscope AB",
       "link": "https://www.paliscope.com/",
       "img": "paliscope.webp",
       "alt": "paliscope icon",
       "list-items": [
-        "Moderniserade äldre kodbaser med uppdaterad kod inom React, från klasser till funktioner och Material UI.",
         "Dagliga standups och agilt arbetssätt - löste problem både i team och självständigt.",
         "Regelbunden dialog med UX-designer stärkte min förmåga att prata om frontend-kod på ett tillgängligt sätt.",
-        "Ansvarade för stories och features i Azure DevOps miljö genom hela stacken från backend till frontend.",
+        "Arbetade i Azure DevOps med planering, stories, sprintar och implementation av features genom hela stacken från backend till frontend.",
         "Implementerade nya verktyg (D3.js och Visx) för att visualisera en interaktiv tidslinje - presenterad för utbildning och företag."
       ]
     },
     "education": {
       "title": "Fullstack-utvecklare JavaScript",
-      "subtitle": "2024-2026",
+      "subtitle": "aug 2024 - maj 2026",
       "location": "IT-högskolan",
       "link": "https://www.iths.se/utbildningar/fullstack-utvecklare-javascript/",
       "img": "it-university.webp",
       "alt": "it-university icon",
       "list-items": [
-        "Tack vare kurser i UX/UI har jag praktisk insikt i hur viktigt det är att förstå användarens perspektiv.",
-        "Under kursen i Native JavaScript genomförde vi ett skriftligt prov där jag fick alla rätt vilket visar mitt intresse för att lära mig kodstruktur på djupet.",
-        "Konfigurerade en egen server med Docker som jag hostar min webbplats på.",
-        "I samtliga kurser - frontend, UX, testning, backend och databaser - har jag uppnått högsta betyg."
+        "Utbildning inom modern fullstackutveckling med fokus på JavaScript, TypeScript, React, Vue, Node.js, databaser och testning.",
+        "Utvecklat databasdrivna webbapplikationer med REST-API, WebSockets, SQL- och NoSQL-databaser samt moderna frontend-ramverk.",
+        "Arbetat med agila arbetsmetoder, versionshantering (Git), Docker, molntjänster och automatiserad testning genom projekt i både team och individuellt.",
+        "Uppnått högsta betyg i samtliga kurser inom frontendutveckling, backendutveckling, databaser, testning och UX/UI."
       ]
     },
     "voluntary": {
@@ -69,7 +68,7 @@
     },
     "highschool-2": {
       "title": "Folkhögskola",
-      "subtitle": "2023-2024",
+      "subtitle": "aug 2023 - maj 2024",
       "location": "Nordiska Folkhögskolan",
       "link": "https://nordiska.fhsk.se/sang-scen/kurser/nordiska-visskolan/",
       "img": "nordiska-icon.webp",
@@ -78,7 +77,7 @@
     },
     "highschool": {
       "title": "Folkhögskola",
-      "subtitle": "2022-2023",
+      "subtitle": "aug 2022 - maj 2023",
       "location": "Göteborgs Folkhögskola",
       "link": "https://gbg.fhsk.se/kurser/natur/",
       "img": "gbg-highschool.webp",
@@ -87,7 +86,7 @@
     },
     "work-2": {
       "title": "Undersköterska",
-      "subtitle": "2020-2022",
+      "subtitle": "feb 2020 - jun 2022",
       "location": "Göteborgs Stad",
       "link": "https://goteborg.se/wps/portal/start/kommun-och-politik/kommunens-organisation/forvaltningar-och-namnder/aldre-samt-vard--och-omsorgsforvaltningen",
       "img": "gothenburg-city-icon.webp",
@@ -95,30 +94,38 @@
       "list-items": ["Äldreomsorg inom hemtjänsten."]
     },
     "work": {
-      "title": "Verksamhetsutvecklare",
-      "subtitle": "2018-2019",
+      "title": "Enhetschef",
+      "subtitle": "jan 2019 - jun 2019",
       "location": "Göteborgs Stad",
       "link": "https://goteborg.se/wps/portal/start/kommun-och-politik/kommunens-organisation/forvaltningar-och-namnder/aldre-samt-vard--och-omsorgsforvaltningen",
       "img": "gothenburg-city-icon.webp",
       "alt": "gothenburg city icon",
       "list-items": [
-        "Uppdrag inom socialtjänsten i Göteborg Stad.",
-        "Fokus på att effektivisera och organisera delar av förvaltningen.",
-        "Förändringsarbete"
+        "Ansvarade för verksamhet, personal och arbetsmiljö inom personlig assistans",
+        "Prioriterade och koordinerade resurser utifrån verksamhetens behov i en komplex och föränderlig miljö."
+      ]
+    },
+    "work2": {
+      "title": "Verksamhetsutvecklare",
+      "subtitle": "jan 2018 - dec 2018",
+      "location": "Göteborgs Stad",
+      "link": "https://goteborg.se/wps/portal/start/kommun-och-politik/kommunens-organisation/forvaltningar-och-namnder/aldre-samt-vard--och-omsorgsforvaltningen",
+      "img": "gothenburg-city-icon.webp",
+      "alt": "gothenburg city icon",
+      "list-items": [
+        "Analyserade verksamhetsprocesser och identifierade förbättringsområden för att effektivisera arbetssätt och skapa bättre stöd för verksamheten."
       ]
     },
     "journey": {
       "title": "Offentlig förvaltning",
-      "subtitle": "2013-2018",
+      "subtitle": "aug 2013 - maj 2018",
       "location": "Göteborgs Universitet",
       "link": "https://www.gu.se/studera/hitta-utbildning/masterprogrammet-i-offentlig-forvaltning-organisering-management-och-samhalle-s2off-omsa",
       "img": "gothenburg-university-icon.webp",
       "alt": "gothenburg school icon",
       "list-items": [
         "Master- och kandidatexamen i offentlig förvaltning, ledning och styrning.",
-        "Hur politik omvandlas till offentlig förvaltning",
-        "Praktik",
-        "Uppsatsskrivande"
+        "Hur politik omvandlas till offentlig förvaltning"
       ]
     }
   }

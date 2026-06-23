@@ -4,17 +4,21 @@ function Intro() {
   return (
     <section className={styles.container}>
       <p>
-        Fullstack-utvecklare med <strong>grund i JavaScript</strong>, byggd på
-        hobbyprojekt, formell utbildning och <strong>lärande i arbete</strong>.
+        Fullstackutvecklare med erfarenhet av React, TypeScript, databaser och
+        moderna utvecklingsverktyg. Genom praktik på Paliscope och studier på
+        IT-Högskolan har jag arbetat i agila team, ansvarat för features i Azure
+        DevOps och utvecklat lösningar genom hela stacken.
       </p>
       <p className={styles.indent}>
-        Jag <strong>välkomnar</strong> kodgranskning och feedback - det är så
-        jag <strong>växer</strong> snabbast. På sikt vill jag{" "}
-        <strong>fördjupa</strong> mig i ett specialistområde för att en dag
-        kunna <strong>föra kunskapen vidare</strong> till andra. Du får en{" "}
-        <strong>utvecklare</strong> som är hungrig på utmaningar, enkel att
-        samarbeta med och som alltid har slutanvändarens{" "}
-        <strong>upplevelse</strong> i fokus.
+        Min bakgrund som verksamhetsutvecklare och utredare har gett mig en
+        stark analytisk förmåga och förståelse för hur teknik kan skapa nytta
+        för verksamheter och användare. Jag trivs i samarbete med andra,
+        uppskattar kodgranskning och ser kontinuerligt lärande som en naturlig
+        del av utvecklarrollen.
+      </p>
+      <p className={styles.indent}>
+        Använder AI-baserade utvecklingsverktyg som ChatGPT, GitHub Copilot och
+        Claude för problemlösning, kodgranskning och effektiv utveckling.
       </p>
     </section>
   );

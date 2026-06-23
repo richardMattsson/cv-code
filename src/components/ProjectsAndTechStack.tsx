@@ -1,14 +1,18 @@
 import content from "../data/content.json";
 import styles from "../css/project-and-techstack.module.css";
 import {
+  SiCss,
   SiCypress,
   SiD3,
   SiDocker,
   SiElectron,
   SiExpress,
   SiGit,
+  SiHtml5,
+  SiJavascript,
   SiMongodb,
   SiMui,
+  SiNodedotjs,
   SiPostgresql,
   SiReact,
   SiRedux,
@@ -18,27 +22,31 @@ import {
 } from "react-icons/si";
 
 const techStack = [
+  { JavaScript: <SiJavascript color="#f0db4f" className={styles.icon} /> },
   { TypeScript: <SiTypescript color="#007acc" className={styles.icon} /> },
   { React: <SiReact color="#179ce9" className={styles.icon} /> },
   { Vue: <SiVuedotjs color="#478a4a" className={styles.icon} /> },
+  { "Node.js": <SiNodedotjs color="#68A063" className={styles.icon} /> },
+  { HTML5: <SiHtml5 color="#e34c26" className={styles.icon} /> },
+  { CSS: <SiCss color="#2965f1" className={styles.icon} /> },
   { Express: <SiExpress color="#020303" className={styles.icon} /> },
   { PostgreSQL: <SiPostgresql color="#179ce9" className={styles.icon} /> },
   { MongoDb: <SiMongodb color="#247a0f" className={styles.icon} /> },
   { Git: <SiGit color="#df7615" className={styles.icon} /> },
-  { "Redux Toolkit": <SiRedux color="#7619ce" className={styles.icon} /> },
-  { "Material UI": <SiMui color="#2558c5" className={styles.icon} /> },
+  { Docker: <SiDocker color="#4c61dd" className={styles.icon} /> },
   { Cypress: <SiCypress color="#427945" className={styles.icon} /> },
+  { "Material UI": <SiMui color="#2558c5" className={styles.icon} /> },
+  { "Redux Toolkit": <SiRedux color="#7619ce" className={styles.icon} /> },
   { D3: <SiD3 color="#df7615" className={styles.icon} /> },
   { Visx: <SiVisx color="#f03629" className={styles.icon} /> },
-  { Docker: <SiDocker color="#4c61dd" className={styles.icon} /> },
   { Electron: <SiElectron color="#325e86" className={styles.icon} /> },
 ];
 
 function ProjectsAndTechStack() {
   return (
     <aside>
-      <Projects />
       <TechStack />
+      <Projects />
 
       <button onClick={() => window.print()} className={styles.printBtn}>
         Skriv ut / PDF
@@ -70,7 +78,7 @@ function Projects() {
 function TechStack() {
   return (
     <section className={styles.techContainer}>
-      <h2>Min stack</h2>
+      <h2>Tech stack</h2>
       <ul className={styles.projectList}>
         {techStack.map((item) => (
           <li className={styles.project}>
